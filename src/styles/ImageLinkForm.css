@@ -1,0 +1,43 @@
+.imgLink {
+  font-size: 1.3em;
+}
+
+.imgInp {
+  font-size: 1.5em;
+  padding: 0.5em;
+  width: 70%;
+  text-align: center;
+}
+
+.imgButt {
+  width: 30%;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  text-decoration: none;
+  transition: color .15s ease-in;
+  padding: 0.5em 0.75em;
+  color: white;
+  background-color: lightcoral;
+  display: inline-block;
+  border-color: lightcoral;
+  border-radius: 0.5em;
+}
+
+.imgButt:hover,
+.imgButt:focus {
+  transform: scale(1.02);
+}
+
+.form {
+  padding: 1.3em;
+  border-radius: 0.4em;
+  box-shadow: 0.3em 0.3em 0.1em rgba(128, 128, 128, 0.356);
+  width: 50%;
+  height: 300 px;
+  background: linear-gradient(45deg, #dca 12%, transparent 0, transparent 88%, #dca 0),
+    linear-gradient(135deg, transparent 37%, #a85 0, #a85 63%, transparent 0),
+    linear-gradient(45deg, transparent 37%, #dca 0, #dca 63%, transparent 0) #753;
+    background-size: 25px 25px;
+}

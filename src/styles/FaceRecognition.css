@@ -1,0 +1,24 @@
+.imgPre {
+  width: 400px;
+  height: auto;
+}
+
+.faceRec {
+  margin: 0.5em;
+}
+
+.bounding_box {
+  position: absolute;
+  box-shadow: 0 0 0 3px #139df2 inset;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.wrapper {
+  position: absolute;
+  margin-top: 0.5rem;
+}
